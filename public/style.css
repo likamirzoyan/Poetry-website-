@@ -1,0 +1,62 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fcfbf9;
+  color: #1a1a1a;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  max-width: 700px;
+  margin: 40px auto 20px;
+  padding: 0 20px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0 0 10px;
+  font-weight: normal;
+}
+
+nav a {
+  color: #666;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+.poem-card {
+  margin-bottom: 40px;
+}
+
+.poem-title {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.poem-meta {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.poem-body {
+  white-space: pre-line;
+  font-size: 1.05rem;
+  color: #2c2c2c;
+}
